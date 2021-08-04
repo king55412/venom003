@@ -1,0 +1,79 @@
+local Flux = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/fluxlib.txt")()
+
+local win = Flux:Window("The Noob", "Venom Hub", Color3.fromRGB(148, 0, 211), Enum.KeyCode.LeftControl)
+local tab = win:Tab("Farm Noob", "http://www.roblox.com/asset/?id=6023426915")
+tab:Line()
+
+tab:Label(" Enjoy With My Script ")
+
+tab:Line()
+
+tab:Button("Bring-The Noob", "Bring The Noob", function()
+    for _,v in pairs(game.Workspace:GetDescendants()) do
+        if string.find(v.Name, "The_Rake") and v:FindFirstChild("HumanoidRootPart") then
+            v:FindFirstChild("HumanoidRootPart").Anchored = true
+            v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-5)
+         end
+     end
+     Flux:Notification("Bring!!", "Alright")
+    end)
+
+    tab:Button("Auto-Afk Farm", "AFK AUTOFARM", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5.75935125, -70.4436111, -53.483448, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+         Flux:Notification("Yeah Autofarm!", "Alright")
+        end)
+
+        tab:Line()
+
+        tab:Button("Chips Spawn", "Chips Spawn", function()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-582.704407, 8.11563492, -656.888855, 0.999007821, 2.17793517e-09, 0.0445351489, -7.90535104e-09, 1, 1.28428269e-07, -0.0445351489, -1.28652914e-07, 0.999007821)
+             Flux:Notification("Yeah spawn!", "Alright")
+            end)
+
+            tab:Line()
+            tab:Label("Teleports")
+            tab:Line()
+            tab:Button("Shop", "Shop Spawn", function()
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-253.668549, 7.99385405, -396.407745, 0.99999845, 1.72123364e-08, 0.00174353924, -1.71232095e-08, 1, -5.11310851e-08, -0.00174353924, 5.11011571e-08, 0.99999845)
+                 Flux:Notification("Yeah spawn!", "Alright")
+                end)
+
+                tab:Button("Destroy Cabin", "Spawn", function()
+                    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-50.790596, 33.8047333, -188.864487, -0.999941766, -1.00824792e-07, 0.0107870819, -1.00759358e-07, 1, 6.60914612e-09, -0.0107870819, 5.52186386e-09, -0.999941766)
+                     Flux:Notification("Yeah spawn!", "Alright")
+                    end)
+
+                    tab:Button("Playground", "Spawn", function()
+                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(183.452515, 49, -184.358582, 0.0626890585, 7.41214237e-08, 0.998033106, 6.19538199e-08, 1, -7.81589833e-08, -0.998033106, 6.67316797e-08, 0.0626890585)
+                         Flux:Notification("Yeah spawn!", "Alright")
+                        end)
+
+                            tab:Button("Tower", "Spawn", function()
+                                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(339.886719, 58.8000069, 2.54844642, 0.0265348684, 3.87841013e-08, -0.999647915, 1.19592904e-08, 1, 3.91152106e-08, 0.999647915, -1.2992996e-08, 0.0265348684)
+                                 Flux:Notification("Yeah spawn!", "Alright")
+                                end)
+
+                                tab:Button("Tower", "Spawn", function()
+                                    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(339.886719, 58.8000069, 2.54844642, 0.0265348684, 3.87841013e-08, -0.999647915, 1.19592904e-08, 1, 3.91152106e-08, 0.999647915, -1.2992996e-08, 0.0265348684)
+                                     Flux:Notification("Yeah spawn!", "Alright")
+                                    end)
+
+                                    tab:Button("Survival SafeHouse", "Spawn", function()
+                                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(332.752869, 7.8125, 264.779663, 0.998335302, 1.47704915e-08, -0.0576765202, -1.59519846e-08, 1, -2.00244124e-08, 0.0576765202, 2.09111324e-08, 0.998335302)
+                                         Flux:Notification("Yeah spawn!", "Alright")
+                                        end)
+
+                                        tab:Button("Crash Car", "Spawn", function()
+                                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(126.956894, 4.95958805, 250.944809, -0.844417214, -1.89735108e-08, 0.535686076, 3.37987558e-08, 1, 8.86970284e-08, -0.535686076, 9.30028179e-08, -0.844417214)
+                                             Flux:Notification("Yeah spawn!", "Alright")
+                                            end)
+
+                                            tab:Button("Power Station", "Spawn", function()
+                                                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-14.6132975, 31.1272068, 89.7423325, -0.0297060963, 1.25474129e-08, -0.999558687, 3.20658664e-08, 1, 1.15999805e-08, 0.999558687, -3.17071276e-08, -0.0297060963)
+                                                 Flux:Notification("Yeah spawn!", "Alright")
+                                                end)
+                                                
+                                            tab:Button("The Noob Spawn", "Spawn", function()
+                                                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-330.965057, -8.60246658, 296.202972, -0.680176198, 3.83994525e-08, 0.733048677, -1.69613781e-08, 1, -6.81212313e-08, -0.733048677, -5.87679558e-08, -0.680176198)
+                                                 Flux:Notification("Yeah spawn!", "Alright")
+                                                end)
